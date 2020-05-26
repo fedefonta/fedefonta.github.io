@@ -1,61 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>compito di informatica</title>
+	<title>Index Sito Personale</title>
 	<link rel = "stylesheet" tipe="text/css" href="index.css"></link>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 <body>
-	<h1>Federico Fontanesi</h1>
-	<h2>Sito Personale</h2>
-	<p><br><strong>Le mie passioni sono:</strong>
-	<ul>
-		<li>Giocare a calcio</li>
-		<li>Fare l'allenatore di calcio</li>
-		<li>Suonare la chitarra elettrica</li>
-	</ul></p>
-	<p>La mia scuola:
-	<a href="https://www.liceoariostospallanzani-re.edu.it/"; target="_blank">LICEO SPALLANZANI</a>
-	<br>La mia pagella nel primo quadrimestre:
-	<table>
-		<tr><td>Italiano:</td><td>9, 7</td></tr>
-		<tr><td>Matematica:</td><td>6, 7</td></tr>
-		<tr><td>Informatica:</td><td>7</td></tr>
-		<tr><td>Fisica:</td><td>7</td></tr>
-		<tr><td>Scienze:</td><td>7</td></tr>
-		<tr><td>Arte:</td><td>8</td></tr>
-		<tr><td>Ginnastica:</td><td>8</td></tr>
-		<tr><td>Latino:</td><td>7, 7</td></tr>
-		<tr><td>Storia:</td><td>7</td></tr>
-		<tr><td>Inglese:</td><td>6</td></tr>
-		<tr><td>Religione:</td><td>Distinto</td></tr>
-	</table></p>
-	<p>La mia squadra di calcio:
-	<a href="http://santos1948.it/"; target="_blank">U.S. SANTOS 1948</a><br></p>
-	<p><br><strong>Identikit calciatore:</strong>
-	<table>
-		<tr><td>Categoria:</td><td>Allievi</td></tr>
-		<tr><td>Ruolo primario:</td><td>Difensore centrale</td></tr>
-		<tr><td>Ruolo secondario:</td><td>Terzino destro</td></tr>
-		<tr><td>Ruolo secondario:</td><td>Terzino sinistro</td></tr>
-	</table></p>
-	<p><br><strong>Identikit allenatore:</strong>
-	<table>
-		<tr><td>Anni da allenatore:</td><td>2</td></tr>
-		<tr><td>Età squadra 1:</td><td>Under 9</td></tr>
-		<tr><td>Età squadra 2:</td><td>Under 7</td></tr>
-		<tr><td>Qualificazione:</td><td>Patentino CSI</td></tr>
-	</table></p>
-	<p><strong>Identikit musicista:</strong>
-	<table>
-		<tr><td>Strumento:</td><td>Chitarra elettrica</td></tr>
-		<tr><td>Genere preferito:</td><td>Rock</td></tr>
-		<tr><td>Band preferita:</td><td>Queen</td></tr>
-		<tr><td>Canzone preferita:</td><td>I Want It All</td></tr>
-		<tr><td>Altri strumenti:</td><td><ul><li>Chitarra acustica</li><li>Chitarra classica</li></ul></td></tr>
-		<tr><td>Chitarra preferita:</td><td>Gibson Les Paul</td></tr>
-		<tr><td>Chitarra posseduta:</td><td>Eko Les Paul</td></tr>
-		<tr><td>Chitarrista preferito:</td><td>Brian May</td></tr>
-		<tr><td>Album preferito:</td><td>Appetite for distruction (Guns 'n' Roses)</td></tr>
-	</table></p>
+	<h1 align="center">Federico Fontanesi</h1>
+	<h2 align="center">Sito Personale</h2>
+	<div class="card-group">
+		<div class="card">
+			<div class="card-body">
+			<h5 class="card-title">Scuola</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Liceo Spallanzani</h6>
+			<p class="card-text">Pagella primo quadrimestre:<br>
+				<table>
+					<tr><td>Italiano: </td><td>9, 7</td><td><span class="badge badge-pill badge-success">Success</span></td></tr>
+					<tr><td>Matematica: </td><td>6, 7</td><td><span class="badge badge-pill badge-warning">Warning</span></td></tr>
+					<tr><td>Informatica: </td><td>7</td><td><span class="badge badge-pill badge-success">Success</span></td></tr>
+					<tr><td>Fisica: </td><td>7</td><td><span class="badge badge-pill badge-success">Success</span></td></tr>
+					<tr><td>Scienze: </td><td>7</td><td><span class="badge badge-pill badge-success">Success</span></td></tr>
+					<tr><td>Arte: </td><td>8</td><td><span class="badge badge-pill badge-success">Success</span></td></tr>
+					<tr><td>Ginnastica: </td><td>8</td><td><span class="badge badge-pill badge-success">Success</span></td></tr>
+					<tr><td>Latino: </td><td>7, 7</td><td><span class="badge badge-pill badge-success">Success</span></td></tr>
+					<tr><td>Storia: </td><td>7</td><td><span class="badge badge-pill badge-success">Success</span></td></tr>
+					<tr><td>Inglese: </td><td>6</td><td><span class="badge badge-pill badge-warning">Warning</span></td></tr>
+					<tr><td>Religione: </td><td>9</td><td><span class="badge badge-pill badge-success">Success</span></td></tr>
+				</table>
+			</p>
+			<a href="https://www.liceoariostospallanzani-re.edu.it/"; target="_blank"; class="card-link">La mia scuola</a>
+			</div>
+		</div>
+		<div class="card">
+			<img src="IOCONLAPALLA.jpg" class="card-img-top" alt="Foto mentre gioco a calcio">
+			<div class="card-body">
+			<h5 class="card-title">Calciatore</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Identikit</h6>
+			<p class="card-text">
+				<table>
+					<tr><td>Categoria: </td><td>Allievi</td></tr>
+					<tr><td>Ruolo primario: </td><td>Difensore centrale</td></tr>
+					<tr><td>Ruolo secondario: </td><td>Terzino destro</td></tr>
+					<tr><td>Altro ruolo: </td><td>Terzino sinistro</td></tr>
+				</table>
+			</p>
+			<a href="http://santos1948.it/"; target="_blank" class="card-link">La mia squadra</a>
+			</div>
+		</div>
+		<div class="card">
+			<img src="CHITARRAELETTRICA.jpg" class="card-img-top" alt="Foto della mia chitarra elettrica">
+			<div class="card-body">
+			<h5 class="card-title">Musicista</h5>
+			<h6 class="card-subtitle mb-2 text-muted">Identikit</h6>
+			<p class="card-text">
+				<table>
+					<tr><td>Strumento: </td><td>Chitarra elettrica</td></tr>
+					<tr><td>Genere preferito: </td><td>Rock</td></tr>
+					<tr><td>Band preferita: </td><td>Queen</td></tr>
+					<tr><td>Canzone preferita: </td><td>I Want It All</td></tr>
+					<tr><td>Chitarra preferita: </td><td>Gibson Les Paul</td></tr>
+					<tr><td>Chitarra posseduta: </td><td>Eko Les Paul</td></tr>
+					<tr><td>Chitarrista preferito: </td><td>Brian May</td></tr>
+					<tr><td>Album preferito: </td><td>Appetite for distruction (Guns 'n' Roses)</td></tr>
+				</table>
+			</p>
+			</div>
+		</div>
+	</div>
+	<div class="card-group">
+		<div class="card border-dark mb-3">
+			<div class="card-body text-dark">
+				<h5 class="card-title">Caratteristiche Fisiche</h5>
+				<p class="card-text">
+					<table>
+						<tr><td>Altezza: </td><td>181 cm</td></tr>
+						<tr><td>Peso: </td><td>73 kg</td></tr>
+						<tr><td>Colore Capelli: </td><td>Scuro</td></tr>
+						<tr><td>Colore Occhi: </td><td>Scuro</td></tr>
+						<tr><td>Età: </td><td>15 anni</td></tr>
+					</table>
+				</p>
+			</div>
+		</div>
+		<div class="card border-dark mb-3">
+			<div class="card-body text-dark">
+				<h5 class="card-title">Cosa mi piace fare?</h5>
+				<p class="card-text">
+					Amo il calcio a 360 gradi: gioco e alleno i bambini. Amo la musica: ascolto principalmente rock e suono la chitarra elettrica. Nonostante non sia vero per tutte le materie, alcune mi piace anche studiarle. Inoltre amo passare del tempo con i miei amici e uscire.
+				</p>
+			</div>
+		</div>
+		<div class="card border-dark mb-3">
+			<div class="card-body text-dark">
+				<h5 class="card-title">I miei cibi preferiti:</h5>
+				<p class="card-text">
+					Pizza<br>Cappelletti<br>Tortelli<br>Erbazzone<br>Pesce (qualunque genere)
+				</p>
+			</div>
+		</div>			
+	</div>
+	<address>
+		Scritto da Federico Fontanesi<br>Contatti:<br>
+		<a href="https://www.instagram.com/federico.fontanesi/?hl=it">Profilo Instagram</a><br>
+		<a href="mailto:fede.fontanesi2004@gmail.com">Indirizzo Mail</a>
+	</address>
 </body>
 </html>
