@@ -1,9 +1,9 @@
 *{
 	margin: 0;
-	padding: 0
+	padding: 0;
+	font-family: "Trebuchet MS" 
 }
 
-body { background-color: rgb(204, 231, 232); font-family: "Calibri" }
 p { color: black}
-h1 { color: rgb(25, 121, 169) }
-h2 { color: rgb(105, 189, 210) }
+h1 { color: black; font-size: 50 }
+h2 { color: grey }
